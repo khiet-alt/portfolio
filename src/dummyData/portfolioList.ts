@@ -24,13 +24,13 @@ export const portfolioList = [
 export const featuredPorfolio = [
     {
         id: 1,
-        title: "featured App",
-        img: "https://www.fullphimz.net/static/5fe2d564b3fa6403ffa11d1c/60de6d7faa1bb691e514b6d4_poster-anh-la-mua-xuan-cua-em.jpg"
+        title: "React Typescript",
+        img: "assets/projects/restaurant.jpg"
     },
     {
         id: 2,
-        title: "featured App",
-        img: "https://www.fullphimz.net/static/5fe2d564b3fa6403ffa11d1c/60ddc1a2085d2983a0be88fa_poster-toi-da-lo-yeu-muc-tieu-truy-sat-cua-minh.jpg"
+        title: "Nodejs Server",
+        img: "assets/projects/restaurant-nodejs.jpg"
     },
     {
         id: 3,
@@ -44,11 +44,11 @@ export const featuredPorfolio = [
     }
 ]
 
-export const webPortfolio = [
+export const backendPortfolio = [
     {
-        id: 1,
-        title: "featured App",
-        img: "https://www.fullphimz.net/static/5fe2d564b3fa6403ffa11d1c/60d5eaee9444ba4ccf11c156_poster-quyen-tu-luong.jpg"
+        id: 2,
+        title: "Nodejs Server",
+        img: "assets/projects/restaurant-nodejs.jpg"
     },
     {
         id: 2,
@@ -62,16 +62,16 @@ export const webPortfolio = [
     }
 ]
 
-export const mobilePortfolio = [
+export const frontendPortfolio = [
     {
         id: 1,
-        title: "featured App",
-        img: "https://www.fullphimz.net/static/5fe2d564b3fa6403ffa11d1c/60d5eaee9444ba4ccf11c156_poster-quyen-tu-luong.jpg"
+        title: "React Typescript",
+        img: "assets/projects/restaurant.jpg"
     },
     {
         id: 2,
-        title: "featured App",
-        img: "https://www.fullphimz.net/static/5fe2d564b3fa6403ffa11d1c/60d44c5d758c24d1a6d08e89_poster-bo-vuc-cua-su-dien-ro.jpg"
+        title: "Movie App",
+        img: "assets/projects/movie.jpg"
     },
     {
         id: 3,
@@ -83,8 +83,8 @@ export const mobilePortfolio = [
 export const designPortfolio = [
     {
         id: 1,
-        title: "featured App",
-        img: "https://www.fullphimz.net/static/5fe2d564b3fa6403ffa11d1c/60d5eaee9444ba4ccf11c156_poster-quyen-tu-luong.jpg"
+        title: "Web Design",
+        img: "assets/projects/design-sahara.jpg"
     },
     {
         id: 2,
@@ -98,11 +98,11 @@ export const designPortfolio = [
     }
 ]
 
-export const contentPortfolio = [
+export const othersPortfolio = [
     {
         id: 1,
-        title: "featured App",
-        img: "https://www.fullphimz.net/static/5fe2d564b3fa6403ffa11d1c/60d5eaee9444ba4ccf11c156_poster-quyen-tu-luong.jpg"
+        title: "Clock",
+        img: "assets/projects/clock.jpg"
     },
     {
         id: 2,

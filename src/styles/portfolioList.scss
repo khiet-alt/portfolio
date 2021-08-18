@@ -10,11 +10,17 @@
     cursor: pointer;
 
     &.active {
-        background-color: $textDark;
+        background-color: $textPurple;
         color: white;
+        border: 1px solid mediumpurple;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 1px #f2c1f2;
     }
 
     @include ex-mobile {
         margin-right: 10px;
+    }
+    @include mobile {
+        margin-right: 20px;
     }
 }

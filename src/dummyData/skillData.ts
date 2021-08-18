@@ -28,7 +28,8 @@ export const data = [
         logo: 'asdasdads',
         line: [
             'MongoDb',
-            'MSSQL Server'
+            'SQL Server',
+            'MVC pattern'
         ]
     },
     {

@@ -3,9 +3,11 @@ import '../styles/portfolio.scss'
 //data
 import { portfolioList } from '../dummyData/portfolioList'
 import PortfolioList from './PortfolioList'
-import { featuredPorfolio, webPortfolio, mobilePortfolio,
+import { featuredPorfolio, frontendPortfolio, backendPortfolio,
     designPortfolio,
-    contentPortfolio } from '../dummyData/portfolioList'
+    othersPortfolio } from '../dummyData/portfolioList'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookDead } from '@fortawesome/free-solid-svg-icons'
 
 type Prop = {
     id: number;
@@ -24,23 +26,23 @@ export default function Portfolio() {
                 setData(featuredPorfolio)
                 break;
             case "backend":
-                setData(webPortfolio)
+                setData(backendPortfolio)
                 break;
             case "frontend":
-                setData(mobilePortfolio)
+                setData(frontendPortfolio)
                 break;
             case "design":
                 setData(designPortfolio)
                 break;
             case "other":
-                setData(contentPortfolio)
+                setData(othersPortfolio)
                 break;
         }
     }, [selected])
 
     return (
         <div className="portfolio" id="portfolio">
-            <h2>Portfolio</h2>
+            <h2>PORTFOLIO</h2>
             <ul>
                 { portfolioList.map(item => (
                      <PortfolioList 
@@ -56,7 +58,11 @@ export default function Portfolio() {
                 { data.map(item => (
                     <div className="item">
                         <img src={item.img} alt="" />
-                        <h3>{item.title}</h3>
+                        <div className="viewSource">
+                            <h5>{item.title}</h5>
+                            <FontAwesomeIcon icon={faBookDead} />
+                            <a href="#">Source</a>
+                        </div>
                     </div>
                 ))}
             </div>
