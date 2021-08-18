@@ -1,0 +1,17 @@
+$textDark: #15023a;
+$textPurple: #c997f2;
+
+$width: 768px;
+$ex-width: 500px;
+
+@mixin mobile{
+    @media (max-width: #{$width}){
+        @content
+    }
+};
+
+@mixin ex-mobile{
+    @media (max-width: #{$ex-width}){
+        @content
+    }
+}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap');
+@import '../styles/global.scss';
+
+.about {
+    display: flex;
+    height: 100vh;
+    .leftAbout {
+        flex: 0.6;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 40px;
+
+        h4 {
+            letter-spacing: 4px;
+        }
+
+        .aboutme {
+
+            .aboutcontact {
+                font-weight: 300px;
+            }
+
+            & > h1 {
+                letter-spacing: 4px;
+            }
+
+            & > i {
+                font-family: 'Dosis', sans-serif;
+                font-weight: 300;
+            }
+
+            .phone i{
+                margin-top: 5px;
+                font-weight: 700;      
+                font-family: 'Josefin Sans', sans-serif;          
+            }
+        }
+
+        .paragraph {
+            margin: 20px 0px;
+            span {
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 400;
+            }
+        }
+
+        .bottomIcon {
+            a {
+                text-decoration: none;
+                color: #9133de;
+            }
+            svg{
+                font-size: 30px;
+                margin: 10px 15px;
+            }
+        }
+    }
+
+    .rightAbout {
+        flex: 0.4;
+        
+        @include mobile {
+            display: none;
+        }
+    }
+}
